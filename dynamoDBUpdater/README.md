@@ -2,9 +2,11 @@
 This is a simple lambda that gets trigerred by an S3 event demonstrating how a DynamoDB table can be updated with using Java API
 
 ## Design
-* `S3CrudServiceImpl` has all the methods that is capable of uploading an object to S3, uploading an object to S3 with metadata, downloading a given object, reading metadata from a given object, and deleting a given object in S3.
+* `MetadataExtractorServiceImpl` extracts metadata from an event payload.
 
-* `ClientBuilderManager` utility class build an DynamoDB and S3 clients to access DynamoDB and S3 APIs.
+* `DatabaseTransactionManagerSeviceImpl` manages all `DynamoDB` transactions.
+
+* `ClientBuilderManager` utility class build an `DynamoDB` and `S3` clients to access `DynamoDB` and `S3` APIs.
 
 * `PropertyManager` reads required properties from the environemnt and makes them available across the application.
 
