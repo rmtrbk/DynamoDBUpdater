@@ -23,7 +23,7 @@ This is a simple lambda that gets trigerred by an S3 event demonstrating how a D
 `dynamoDB_table_bookInventory` and `dynamoDB_table_bookInventory_primaryKey`.
 Save the relevant values you want to use(ones you used while creating the table).
 
-* In `Function code` section, update `Handler` to denote event listener of the trigger to `updater.dynamoDBUpdater.event.S3RequestEventHandler::handleRequest`
+* In `Function code` section, update `Handler` to denote event listener of the trigger to `updater.dynamodbupdater.event.S3RequestEventHandler::handleRequest`
 
 * Upload the `Lambda` `jar` file and click on `Save`
 
