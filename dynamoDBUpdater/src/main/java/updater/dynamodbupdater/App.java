@@ -1,4 +1,4 @@
-package updater.dynamoDBUpdater;
+package updater.dynamodbupdater;
 
 /**
  * Hello world!

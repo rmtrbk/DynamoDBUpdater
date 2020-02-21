@@ -1,4 +1,4 @@
-package updater.dynamoDBUpdater.service;
+package updater.dynamodbupdater.service;
 
 /**
  * Database transaction management interface.

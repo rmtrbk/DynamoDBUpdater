@@ -1,4 +1,4 @@
-package updater.dynamoDBUpdater.util;
+package updater.dynamodbupdater.util;
 
 /**
  * Reads the properties from the environment.

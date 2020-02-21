@@ -1,4 +1,4 @@
-package updater.dynamoDBUpdater.event;
+package updater.dynamodbupdater.event;
 
 import java.util.List;
 import java.util.Map;
@@ -9,11 +9,11 @@ import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.amazonaws.services.lambda.runtime.events.S3Event;
 import com.amazonaws.services.s3.event.S3EventNotification.S3EventNotificationRecord;
 
-import updater.dynamoDBUpdater.service.DatabaseTransactionManagerSeviceImpl;
-import updater.dynamoDBUpdater.service.IDatabaseTransactionManagerSevice;
-import updater.dynamoDBUpdater.service.IMetadataExtractorService;
-import updater.dynamoDBUpdater.service.MetadataExtractorServiceImpl;
-import updater.dynamoDBUpdater.util.PropertyManager;
+import updater.dynamodbupdater.service.DatabaseTransactionManagerSeviceImpl;
+import updater.dynamodbupdater.service.IDatabaseTransactionManagerSevice;
+import updater.dynamodbupdater.service.IMetadataExtractorService;
+import updater.dynamodbupdater.service.MetadataExtractorServiceImpl;
+import updater.dynamodbupdater.util.PropertyManager;
 
 /**
  * Event driven class for S3 notification (trigger message). 

@@ -1,4 +1,4 @@
-package updater.dynamoDBUpdater.util;
+package updater.dynamodbupdater.util;
 
 import com.amazonaws.ClientConfiguration;
 import com.amazonaws.regions.Regions;

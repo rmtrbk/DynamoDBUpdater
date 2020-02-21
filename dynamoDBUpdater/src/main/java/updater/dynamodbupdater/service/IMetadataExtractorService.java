@@ -1,4 +1,4 @@
-package updater.dynamoDBUpdater.service;
+package updater.dynamodbupdater.service;
 
 import java.util.List;
 import java.util.Map;

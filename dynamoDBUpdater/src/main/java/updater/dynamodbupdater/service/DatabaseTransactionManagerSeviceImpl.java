@@ -1,12 +1,12 @@
-package updater.dynamoDBUpdater.service;
+package updater.dynamodbupdater.service;
 
 import com.amazonaws.services.dynamodbv2.document.DynamoDB;
 import com.amazonaws.services.dynamodbv2.document.Item;
 import com.amazonaws.services.dynamodbv2.document.Table;
 import com.amazonaws.services.lambda.runtime.LambdaLogger;
 
-import updater.dynamoDBUpdater.util.ClientBuilderManager;
-import updater.dynamoDBUpdater.util.PropertyManager;
+import updater.dynamodbupdater.util.ClientBuilderManager;
+import updater.dynamodbupdater.util.PropertyManager;
 
 /**
  * Implementation of {@link:IDatabaseTransactionManagerSevice}.

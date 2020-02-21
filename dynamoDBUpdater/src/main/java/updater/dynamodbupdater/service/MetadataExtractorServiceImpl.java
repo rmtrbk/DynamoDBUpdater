@@ -1,4 +1,4 @@
-package updater.dynamoDBUpdater.service;
+package updater.dynamodbupdater.service;
 
 import java.util.HashMap;
 import java.util.List;
@@ -10,7 +10,7 @@ import com.amazonaws.services.s3.model.GetObjectRequest;
 import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.S3Object;
 
-import updater.dynamoDBUpdater.util.ClientBuilderManager;
+import updater.dynamodbupdater.util.ClientBuilderManager;
 
 /**
  * Implementation of {link:IMetadataExtractorService}

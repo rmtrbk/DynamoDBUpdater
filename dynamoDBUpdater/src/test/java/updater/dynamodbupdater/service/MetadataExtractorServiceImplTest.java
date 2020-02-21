@@ -1,4 +1,4 @@
-package updater.dynamoDBUpdater.service;
+package updater.dynamodbupdater.service;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -23,7 +23,8 @@ import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.S3Object;
 
 import junit.framework.TestCase;
-import updater.dynamoDBUpdater.util.ClientBuilderManager;
+import updater.dynamodbupdater.service.MetadataExtractorServiceImpl;
+import updater.dynamodbupdater.util.ClientBuilderManager;
 
 /**
  * Test class for {@link:MetadataExtractorServiceImpl}
