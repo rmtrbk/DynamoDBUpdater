@@ -10,6 +10,11 @@ This is a simple lambda that gets trigerred by an S3 event demonstrating how a D
 
 * `PropertyManager` reads required properties from the environemnt and makes them available across the application.
 
+## Packaging the jar
+This is a simple Java Maven project.
+
+Build Lambda jar with mvn clean install package and upload it to the created Lambda function.
+
 ## Configuring AWS Infrastructure
 * Create a `DynamoDB` table(e.g. book_inventory).
 
@@ -30,10 +35,6 @@ Save the relevant values you want to use(ones you used while creating the table)
 * Note that if you have a higher load you may need to configure `Basic settings' section with appropriate values for memory and execution time thresholds.
 
 ## How to test
-This is a simple `Java` `Maven` project.
-
-Build `Lambda` `jar` with `mvn clean install package` and upload it to the created `Lambda` function.
-
 Drop a file to the `S3` bucket with `metadata`. You may need to use a simple code snippet to get the relevant `metadata` attached to the object.
 
 Check `DynamoDB` table. you should see the record.

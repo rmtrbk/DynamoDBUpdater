@@ -14,7 +14,7 @@ import updater.dynamodbupdater.util.ClientBuilderManager;
 
 /**
  * Implementation of {link:IMetadataExtractorService}
- * deals with all metadata related work sent in any event payload.
+ * Deals with all metadata related work sent in any event payload.
  * 
  * @author theja.kotuwella
  *
